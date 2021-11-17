@@ -8,10 +8,22 @@
     <dmn:extensionElements/>
     <dmn:variable id="_30A12E82-6E40-44CC-A5EA-1DFA1B569704" name="InputData-1"/>
   </dmn:inputData>
+  <dmn:businessKnowledgeModel id="_6BA89162-05DD-4045-8D5C-7A8F96BCF918" name="BusinessKnowledgeModel-1">
+    <dmn:extensionElements/>
+    <dmn:variable id="_8AC64893-41B5-4CE1-A640-5E0CBB428A58" name="BusinessKnowledgeModel-1"/>
+    <dmn:encapsulatedLogic id="_D09AB616-3955-4475-9F84-04452094C26C" kind="FEEL">
+      <dmn:literalExpression id="_A6C25C9F-4F3F-4A5D-B8D8-44C438D17DB0">
+        <dmn:text/>
+      </dmn:literalExpression>
+    </dmn:encapsulatedLogic>
+  </dmn:businessKnowledgeModel>
   <dmndi:DMNDI>
     <dmndi:DMNDiagram id="_C3551EF4-D3C5-4D33-B108-D7332A62F28C" name="DRG">
       <di:extension>
-        <kie:ComponentsWidthsExtension/>
+        <kie:ComponentsWidthsExtension>
+          <kie:ComponentWidths dmnElementRef="_A6C25C9F-4F3F-4A5D-B8D8-44C438D17DB0"/>
+          <kie:ComponentWidths dmnElementRef="_D09AB616-3955-4475-9F84-04452094C26C"/>
+        </kie:ComponentsWidthsExtension>
       </di:extension>
       <dmndi:DMNShape id="dmnshape-drg-_5614F01F-3506-4F89-A88B-5ADDCB322A8B" dmnElementRef="_5614F01F-3506-4F89-A88B-5ADDCB322A8B" isCollapsed="false">
         <dmndi:DMNStyle>
@@ -29,6 +41,15 @@
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
         <dc:Bounds x="532" y="126" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-drg-_6BA89162-05DD-4045-8D5C-7A8F96BCF918" dmnElementRef="_6BA89162-05DD-4045-8D5C-7A8F96BCF918" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="693" y="50" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
     </dmndi:DMNDiagram>
